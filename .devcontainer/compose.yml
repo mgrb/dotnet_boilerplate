@@ -1,0 +1,7 @@
+services:
+  dotnet-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/dotnet_project:cached

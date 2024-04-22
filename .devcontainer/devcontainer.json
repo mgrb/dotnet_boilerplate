@@ -1,0 +1,15 @@
+{
+    "name": "dotnet-app",
+
+    "dockerComposeFile": "compose.yml",
+    "remoteUser": "dotnet_usr",
+    "service": "dotnet-app",
+    "workspaceFolder": "/dotnet_project",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csdevkit"
+            ]
+        }
+    }
+}
